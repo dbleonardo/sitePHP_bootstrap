@@ -54,13 +54,29 @@
             <div class="col-md-12">
               <p class="text-center">Desenvolvimento do marketing digital.</p>
             </div><!-- col-md-12 -->
-            <div class="d-grid gap-2 col-4 mx-auto">
-            <button type="button" class="btn btn-success">Success</button>
-            </div><!-- col-md-6 -->
-
+            <?php require './assets/whatssapp.php' ?>
       </div><!-- row -->
     </div><!-- container -->
-  </section>
+  </section><!-- banner-->
+  <!-- DADASTRO -->
+  <section class="cadastro-lead">
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-md-12 ">
+            <h2>Entre na nossa lista.</h2>
+          </div><!-- col-md-12 -->
+          <div class="row mb-6">
+            <label for="colFormLabel" class="col-sm-2 col-form-label text-ms-start ">Email</label>
+             <div class="col-sm-6">
+                <div class="input-group mb-6">
+                 <input type="text" class="form-control" placeholder="Receba nossas novidades." aria-label="Recipient's username" aria-describedby="button-addon2">
+                 <button class="btn  btn-success" type="button" id="button-addon2">Inscrever-se</button>
+               </div><!-- input-group mb-6 -->
+            </div><!-- col-sm-6 -->
+          </div><!-- row mb-6 -->
+        </div><!-- row -->
+    </div><!-- container -->
+  </section><!-- cadastro-lead -->
 </div><!-- box -->
 
 <script src="./script/bootstrap.bundle.min.js"></script>
