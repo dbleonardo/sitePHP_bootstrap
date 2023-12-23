@@ -81,6 +81,30 @@ section.depoimento{
 
 section.diferencial{
     padding: 30px 0;
-    height:100vh;
+    height:100%;
     background-color:#e9ecef ;
+}
+
+.bi .bi-star{
+    width:32px;
+    height:32px;
+    color:chocolate
+}
+
+#diferencial{
+    -webkit-box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+}
+
+div.card{
+    -webkit-box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
+}
+
+/* RESPONSIVO */
+@media screen and (max-width:720px){
+   
+    
 }
