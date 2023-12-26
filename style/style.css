@@ -58,7 +58,7 @@ section.conteudo{
 
 .cadastro-lead{
     width:100%;
-    height:80vh;
+    height:100%;
     background-color:#e9ecef;
     padding: 100px 0;
 }
@@ -73,7 +73,7 @@ section.conteudo{
 
 section.depoimento{
     padding: 30px 0;
-    height: 100vh;
+    height: 100%;
     background-color: #bbf5ca;
 }
 
@@ -103,8 +103,99 @@ div.card{
     box-shadow: 7px 9px 21px 0px rgba(0,0,0,0.75);
 }
 
+section.equipe h2{
+    margin:0;
+    background-color: #26a69a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* EQUIPE */
+.equipe-container{padding: 30px 0; padding-bottom: 30px;}
+.equipe-single{
+    margin-bottom: 15px;;
+    width:100%;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.75);
+}
+
+.user-picture-1{
+    width:100%;
+    padding-top:100%;
+    background: #8f8989;
+    border-radius: 50%;
+    background-image: url("../images/naruto.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.user-picture-2{
+    width:100%;
+    padding-top:100%;
+    background: #8f8989;
+    border-radius: 50%;
+    background-image: url("../images/jiraiya.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+.user-picture-child{
+    position:absolute;
+    border-radius: 50%;
+    left:0;
+    top:0;
+
+}
+
+section.final-site{
+    padding: 30px 0;
+    background: rgb(225,225,225);
+}
+section.final-site textarea{
+    height:120px;
+}
+section.final-site h2{
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
 /* RESPONSIVO */
 @media screen and (max-width:720px){
-   
+   .user-picture-1, .user-picture-2{
+    width:40%;
+    border-radius: 50%;
+    padding-top: 40%;
+    position: relative;
+    transform: translate(-50% -50%);
+   }
+
+   .section.cadastro-lead form{
+        position: relative;
+        top: 0;
+   }
     
+}
+@media screen and (max-width:420px){
+   .user-picture-1, .user-picture-2{
+    width:40%;
+    border-radius: 50%;
+    padding-top: 40%;
+    position: relative;
+    transform: translate(-50% -50%);
+   }
+
+   .section.cadastro-lead form{
+        position: relative;
+        top: 0;
+   }
+    .chamada-banner h2{
+        width:200px;
+        margin-top:8px;
+        display:inline-block;
+    }
 }

@@ -127,7 +127,7 @@
     <div class="container ">
     <div class="row">
       <div class="col-sm-4 ">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 100%;">
         <img src="./images//bg-card-1.jpg" class="card-img-top" style="height:25rem;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Diferencial #1</h5>
@@ -136,7 +136,7 @@
       </div>
     </div>
       <div class="col-sm-4">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 100%;">
         <img src="./images//bg-card-2.jpg" class="card-img-top" style=" height:25rem;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Diferencial #2</h5>
@@ -146,7 +146,7 @@
       </div>
     </div>
       <div class="col-sm-4">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 100%;">
         <img src="./images//bg-card-3.jpg" class="card-img-top" style="height:25rem;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Diferencial #3</h5>
@@ -162,10 +162,112 @@
 <!-- EQUIPE -->
 
 <section class="equipe">
-  <h2>
-    Equipe
-  </h2>
+  <h2>Equipe </h2>
+  <div class="container equipe-container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="equipe-single">
+            <div class="row">
+              <div class="col-md-2">
+                <div class="user-picture-1"><div class="user-picture-child-1"></div></div>
+              </div>
+              <div class="col-md-10">
+                <h3>Giovana</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa unde molestiae. Deserunt, similique dignissimos officia accusamus, beatae eligendi natus atque veritatis nulla placeat repellendus eius nemo dolorum velit delectus.</p>
+
+              </div><!-- col-md-9 -->
+            </div><!-- row -->
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="equipe-single">
+        <div class="row">
+              <div class="col-md-2">
+                <div class="user-picture-2"><div class="user-picture-child-2"></div></div>
+              </div>
+              <div class="col-md-10">
+                <h3>David</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa unde molestiae. Deserunt, similique dignissimos officia accusamus, beatae eligendi natus atque veritatis nulla placeat repellendus eius nemo dolorum velit delectus.</p>
+
+              </div><!-- col-md-9 -->
+            </div><!-- row -->
+        </div>
+      </div>
+    </div><!-- row -->
+  </div><!-- container equipe-container -->
 </section><!-- EQUIPE -->
+<section class="final-site">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Fale conosco.</h2>
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="name" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="name" placeholder="Nome" name="name">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Mensagem:</label>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <table class="table">
+          <h2>Nossos planos:</h2>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Diário</th>
+              <th scope="col">Semanal</th>
+              <th scope="col">Mensal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>R$200,00</td>
+              <td>R$1000,00</td>
+              <td>R$4000,00</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>R$200,00</td>
+              <td>R$1000,00</td>
+              <td>R$4000,00</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>R$200,00</td>
+              <td>R$1000,00</td>
+              <td>R$4000,00</td>
+            </tr>
+          </tbody>
+        </table>
+              </div>
+            </div><!-- row -->
+          </div><!-- container -->
+</section><!-- final-site -->
+
+<!-- FOOTER -->
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted "><p class="text-center;">&copy; 2023 Company, Inc</p></span>
+    </div>
+
+   
+  </footer>
+</div>
 
 </div><!-- box -->
 
